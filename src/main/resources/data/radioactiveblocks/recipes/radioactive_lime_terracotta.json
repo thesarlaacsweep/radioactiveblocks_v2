@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_terracotta",
+  "pattern": ["TTT", "TDT", "TTT"],
+  "key": {
+    "D": {
+      "item": "minecraft:dye",
+      "data": 10
+
+    },
+    "T": {
+      "item": "radioactiveblocks:radioactive_terracotta"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_lime_terracotta",
+    "count": 8
+  }
+}

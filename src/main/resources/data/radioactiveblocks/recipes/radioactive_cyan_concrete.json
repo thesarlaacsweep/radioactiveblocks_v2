@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_concrete",
+  "pattern": ["RRR", "RIR", "CCC"],
+  "key": {
+    "I": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotAmericium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotBerkelium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotNeptunium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotPlutonium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotProtactinium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotRadium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotTechnetium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotThorium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotUranium"
+      }
+    ],
+    "C": {
+      "item": "minecraft:concrete",
+      "data": 9
+    },
+    "R": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_cyan_concrete",
+    "count": 12
+  }
+}

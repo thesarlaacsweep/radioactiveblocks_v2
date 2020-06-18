@@ -1,0 +1,7 @@
+{
+  "variants": {
+      "type=bottom": { "model": "radioactiveblocks:block/radioactive_cobblestone_slab_bottom" },
+      "type=top": { "model": "radioactiveblocks:block/radioactive_cobblestone_slab_top" },
+      "type=double": { "model": "radioactiveblocks:block/radioactive_cobblestone" }
+  }
+}

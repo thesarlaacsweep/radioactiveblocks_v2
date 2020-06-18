@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["RRR", "RIR", "BBB"],
+  "key": {
+    "I": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotAmericium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotBerkelium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotNeptunium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotPlutonium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotProtactinium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotRadium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotTechnetium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotThorium"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotUranium"
+      }
+    ],
+    "B": {
+      "item": "minecraft:nether_brick"
+    },
+    "R": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_nether_brick_block",
+    "count": 12
+  }
+}
