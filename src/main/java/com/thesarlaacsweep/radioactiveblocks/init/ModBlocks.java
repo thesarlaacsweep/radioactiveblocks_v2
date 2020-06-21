@@ -38,48 +38,100 @@ public class ModBlocks {
     // ################ Stone Blocks ################
     // Decorative Stone
     public static final RegistryObject<Block> RADIOACTIVE_ANDESITE_BLOCK = BLOCKS.register("radioactive_andesite_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_ANDESITE_SLAB = BLOCKS.register("radioactive_andesite_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_ANDESITE_STAIRS  = BLOCKS.register("radioactive_andesite_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.ANDESITE_STAIRS.getDefaultState());
+    });
+
     public static final RegistryObject<Block> RADIOACTIVE_POLISHED_ANDESITE_BLOCK = BLOCKS.register("radioactive_polished_andesite_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_POLISHED_ANDESITE_SLAB = BLOCKS.register("radioactive_polished_andesite_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_POLISHED_ANDESITE_STAIRS  = BLOCKS.register("radioactive_polished_andesite_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.POLISHED_ANDESITE_STAIRS.getDefaultState());
+    });
+
     public static final RegistryObject<Block> RADIOACTIVE_DIORITE_BLOCK = BLOCKS.register("radioactive_diorite_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_DIORITE_SLAB = BLOCKS.register("radioactive_diorite_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_DIORITE_STAIRS  = BLOCKS.register("radioactive_diorite_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.DIORITE_STAIRS.getDefaultState());
+    });
+
     public static final RegistryObject<Block> RADIOACTIVE_POLISHED_DIORITE_BLOCK = BLOCKS.register("radioactive_polished_diorite_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_POLISHED_DIORITE_SLAB = BLOCKS.register("radioactive_polished_diorite_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_POLISHED_DIORITE_STAIRS  = BLOCKS.register("radioactive_polished_diorite_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.POLISHED_DIORITE_STAIRS.getDefaultState());
+    });
+
     public static final RegistryObject<Block> RADIOACTIVE_GRANITE_BLOCK = BLOCKS.register("radioactive_granite_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_GRANITE_SLAB = BLOCKS.register("radioactive_granite_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_GRANITE_STAIRS  = BLOCKS.register("radioactive_granite_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.GRANITE_STAIRS.getDefaultState());
+    });
+
     public static final RegistryObject<Block> RADIOACTIVE_POLISHED_GRANITE_BLOCK = BLOCKS.register("radioactive_polished_granite_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_POLISHED_GRANITE_SLAB = BLOCKS.register("radioactive_polished_granite_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_POLISHED_GRANITE_STAIRS  = BLOCKS.register("radioactive_polished_granite_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.POLISHED_GRANITE_STAIRS.getDefaultState());
+    });
 
     // Cobblestone
     public static final RegistryObject<Block> RADIOACTIVE_COBBLESTONE_BLOCK = BLOCKS.register("radioactive_cobblestone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_MOSSY_COBBLESTONE_BLOCK = BLOCKS.register("radioactive_mossy_cobblestone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_COBBLESTONE_SLAB = BLOCKS.register("radioactive_cobblestone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_MOSSY_COBBLESTONE_SLAB = BLOCKS.register("radioactive_mossy_cobblestone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
     public static final RegistryObject<Block> RADIOACTIVE_COBBLESTONE_STAIRS  = BLOCKS.register("radioactive_cobblestone_stairs", () -> {
         return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.COBBLESTONE_STAIRS.getDefaultState());
+    });
+    public static final RegistryObject<Block> RADIOACTIVE_MOSSY_COBBLESTONE_STAIRS  = BLOCKS.register("radioactive_mossy_cobblestone_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.MOSSY_COBBLESTONE_STAIRS.getDefaultState());
     });
 
     // Stone
     public static final RegistryObject<Block> RADIOACTIVE_STONE_BLOCK = BLOCKS.register("radioactive_stone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_stone_brick", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_CRACKED_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_cracked_stone_brick", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
-    public static final RegistryObject<Block> RADIOACTIVE_MOSSY_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_mossy_stone_brick", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_MOSSY_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_mossy_stone_brick_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_CHISELED_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_chiseled_stone_brick", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_STONE_SLAB = BLOCKS.register("radioactive_stone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_STONE_STAIRS  = BLOCKS.register("radioactive_stone_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.STONE_STAIRS.getDefaultState());
+    });
     public static final RegistryObject<Block> RADIOACTIVE_STONE_BRICK_SLAB = BLOCKS.register("radioactive_stone_brick_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
     public static final RegistryObject<Block> RADIOACTIVE_STONE_BRICK_STAIRS  = BLOCKS.register("radioactive_stone_brick_stairs", () -> {
         return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.STONE_BRICK_STAIRS.getDefaultState());
+    });
+    public static final RegistryObject<Block> RADIOACTIVE_MOSSY_STONE_BRICK_SLAB = BLOCKS.register("radioactive_mossy_stone_brick_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_MOSSY_STONE_BRICK_STAIRS  = BLOCKS.register("radioactive_mossy_stone_brick_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.MOSSY_STONE_BRICK_STAIRS.getDefaultState());
     });
 
     // Sandstone
     public static final RegistryObject<Block> RADIOACTIVE_SANDSTONE_BLOCK = BLOCKS.register("radioactive_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_CHISELED_SANDSTONE_BLOCK = BLOCKS.register("radioactive_chiseled_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_CUT_SANDSTONE_BLOCK = BLOCKS.register("radioactive_cut_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_SMOOTH_SANDSTONE_BLOCK = BLOCKS.register("radioactive_smooth_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_SANDSTONE_SLAB = BLOCKS.register("radioactive_sandstone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
     public static final RegistryObject<Block> RADIOACTIVE_SANDSTONE_STAIRS  = BLOCKS.register("radioactive_sandstone_stairs", () -> {
         return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, Blocks.SANDSTONE_STAIRS.getDefaultState());
     });
+    public static final RegistryObject<Block> RADIOACTIVE_CUT_SANDSTONE_SLAB = BLOCKS.register("radioactive_cut_sandstone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_SMOOTH_SANDSTONE_SLAB = BLOCKS.register("radioactive_smooth_sandstone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_SMOOTH_SANDSTONE_STAIRS  = BLOCKS.register("radioactive_smooth_sandstone_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, Blocks.SMOOTH_SANDSTONE_STAIRS.getDefaultState());
+    });
 
     // Red Sandstone
     public static final RegistryObject<Block> RADIOACTIVE_RED_SANDSTONE_BLOCK = BLOCKS.register("radioactive_red_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_RED_CHISELED_SANDSTONE_BLOCK = BLOCKS.register("radioactive_red_chiseled_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_RED_CUT_SANDSTONE_BLOCK = BLOCKS.register("radioactive_red_cut_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_RED_SMOOTH_SANDSTONE_BLOCK = BLOCKS.register("radioactive_red_smooth_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_RED_SANDSTONE_SLAB = BLOCKS.register("radioactive_red_sandstone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
     public static final RegistryObject<Block> RADIOACTIVE_RED_SANDSTONE_STAIRS  = BLOCKS.register("radioactive_red_sandstone_stairs", () -> {
         return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, Blocks.RED_SANDSTONE_STAIRS.getDefaultState());
+    });
+    public static final RegistryObject<Block> RADIOACTIVE_RED_CUT_SANDSTONE_SLAB = BLOCKS.register("radioactive_red_cut_sandstone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_RED_SMOOTH_SANDSTONE_SLAB = BLOCKS.register("radioactive_red_smooth_sandstone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_RED_SMOOTH_SANDSTONE_STAIRS  = BLOCKS.register("radioactive_red_smooth_sandstone_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, Blocks.SMOOTH_RED_SANDSTONE_STAIRS.getDefaultState());
     });
 
     // Brick
@@ -141,12 +193,20 @@ public class ModBlocks {
     // Quartz
     public static final RegistryObject<Block> RADIOACTIVE_QUARTZ_BLOCK = BLOCKS.register("radioactive_quartz_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_CHISELED_QUARTZ_BLOCK = BLOCKS.register("radioactive_chiseled_quartz_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_SMOOTH_QUARTZ_BLOCK = BLOCKS.register("radioactive_smooth_quartz_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_QUARTZ_PILLAR = BLOCKS.register("radioactive_quartz_pillar", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
     public static final RegistryObject<Block> RADIOACTIVE_QUARTZ_SLAB = BLOCKS.register("radioactive_quartz_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
     public static final RegistryObject<Block> RADIOACTIVE_QUARTZ_STAIRS  = BLOCKS.register("radioactive_quartz_stairs", () -> {
         return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.QUARTZ_STAIRS.getDefaultState());
     });
+    public static final RegistryObject<Block> RADIOACTIVE_SMOOTH_QUARTZ_SLAB = BLOCKS.register("radioactive_smooth_quartz_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_SMOOTH_QUARTZ_STAIRS  = BLOCKS.register("radioactive_smooth_quartz_stairs", () -> {
+        return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.SMOOTH_QUARTZ_STAIRS.getDefaultState());
+    });
     // ################ End Stone Blocks ################
+
+    // Grass
+    public static final RegistryObject<Block> RADIOACTIVE_LANDSCAPE_GRASS = BLOCKS.register("radioactive_landscape_grass", GrassBlockBase::new);
 
     // ################ Wood Blocks ################
     // Logs
@@ -219,6 +279,7 @@ public class ModBlocks {
 
     // ################ Terracotta Blocks ################
     // Regular
+    public static final RegistryObject<Block> RADIOACTIVE_TERRACOTTA = BLOCKS.register("radioactive_terracotta", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_BLACK_TERRACOTTA = BLOCKS.register("radioactive_black_terracotta", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_BLUE_TERRACOTTA = BLOCKS.register("radioactive_blue_terracotta", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
     public static final RegistryObject<Block> RADIOACTIVE_BROWN_TERRACOTTA = BLOCKS.register("radioactive_brown_terracotta", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
@@ -237,22 +298,22 @@ public class ModBlocks {
     public static final RegistryObject<Block> RADIOACTIVE_YELLOW_TERRACOTTA = BLOCKS.register("radioactive_yellow_terracotta", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
 
     // Glazed
-    public static final RegistryObject<Block> RADIOACTIVE_BLACK_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_black_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_BLUE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_blue_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_BROWN_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_brown_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_CYAN_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_cyan_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_GRAY_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_gray_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_GREEN_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_green_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_LIGHT_BLUE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_light_blue_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_LIGHT_GRAY_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_light_gray_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_LIME_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_lime_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_MAGENTA_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_magenta_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_ORANGE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_orange_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_PINK_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_pink_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_PURPLE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_purple_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_RED_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_red_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_WHITE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_white_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
-    public static final RegistryObject<Block> RADIOACTIVE_YELLOW_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_yellow_glazed_terracotta", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_BLACK_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_black_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_BLUE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_blue_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_BROWN_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_brown_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_CYAN_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_cyan_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_GRAY_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_gray_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_GREEN_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_green_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_LIGHT_BLUE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_light_blue_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_LIGHT_GRAY_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_light_gray_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_LIME_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_lime_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_MAGENTA_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_magenta_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_ORANGE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_orange_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_PINK_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_pink_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_PURPLE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_purple_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_RED_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_red_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_WHITE_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_white_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
+    public static final RegistryObject<Block> RADIOACTIVE_YELLOW_GLAZED_TERRACOTTA = BLOCKS.register("radioactive_yellow_glazed_terracotta", () -> new GlazedTerracottaBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND));
     // ################ End Terracotta Blocks ################
 
     // ################ Concrete Blocks ################
@@ -311,25 +372,78 @@ public class ModBlocks {
             "radioactive_andesite_block",
             () -> new BlockItemBase(RADIOACTIVE_ANDESITE_BLOCK.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_ANDESITE_SLAB_ITEM = ITEMS.register(
+            "radioactive_andesite_slab",
+            () -> new BlockItemBase(RADIOACTIVE_ANDESITE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_ANDESITE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_andesite_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_ANDESITE_STAIRS.get())
+    );
+
     public static final RegistryObject<Item> RADIOACTIVE_POLISHED_ANDESITE_BLOCK_ITEM = ITEMS.register(
             "radioactive_polished_andesite_block",
             () -> new BlockItemBase(RADIOACTIVE_POLISHED_ANDESITE_BLOCK.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_POLISHED_ANDESITE_SLAB_ITEM = ITEMS.register(
+            "radioactive_polished_andesite_slab",
+            () -> new BlockItemBase(RADIOACTIVE_POLISHED_ANDESITE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_POLISHED_ANDESITE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_polished_andesite_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_POLISHED_ANDESITE_STAIRS.get())
+    );
+
     public static final RegistryObject<Item> RADIOACTIVE_DIORITE_BLOCK_ITEM = ITEMS.register(
             "radioactive_diorite_block",
             () -> new BlockItemBase(RADIOACTIVE_DIORITE_BLOCK.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_DIORITE_SLAB_ITEM = ITEMS.register(
+            "radioactive_diorite_slab",
+            () -> new BlockItemBase(RADIOACTIVE_DIORITE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_DIORITE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_diorite_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_DIORITE_STAIRS.get())
+    );
+
     public static final RegistryObject<Item> RADIOACTIVE_POLISHED_DIORITE_BLOCK_ITEM = ITEMS.register(
             "radioactive_polished_diorite_block",
             () -> new BlockItemBase(RADIOACTIVE_POLISHED_DIORITE_BLOCK.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_POLISHED_DIORITE_SLAB_ITEM = ITEMS.register(
+            "radioactive_polished_diorite_slab",
+            () -> new BlockItemBase(RADIOACTIVE_POLISHED_DIORITE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_POLISHED_DIORITE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_polished_diorite_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_POLISHED_DIORITE_STAIRS.get())
+    );
+
     public static final RegistryObject<Item> RADIOACTIVE_GRANITE_BLOCK_ITEM = ITEMS.register(
             "radioactive_granite_block",
             () -> new BlockItemBase(RADIOACTIVE_GRANITE_BLOCK.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_GRANITE_SLAB_ITEM = ITEMS.register(
+            "radioactive_granite_slab",
+            () -> new BlockItemBase(RADIOACTIVE_GRANITE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_GRANITE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_granite_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_GRANITE_STAIRS.get())
+    );
+
     public static final RegistryObject<Item> RADIOACTIVE_POLISHED_GRANITE_BLOCK_ITEM = ITEMS.register(
             "radioactive_polished_granite_block",
             () -> new BlockItemBase(RADIOACTIVE_POLISHED_GRANITE_BLOCK.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_POLISHED_GRANITE_SLAB_ITEM = ITEMS.register(
+            "radioactive_polished_granite_slab",
+            () -> new BlockItemBase(RADIOACTIVE_POLISHED_GRANITE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_POLISHED_GRANITE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_polished_granite_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_POLISHED_GRANITE_STAIRS.get())
     );
 
     // Cobblestone
@@ -345,9 +459,17 @@ public class ModBlocks {
             "radioactive_cobblestone_slab",
             () -> new BlockItemBase(RADIOACTIVE_COBBLESTONE_SLAB.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_MOSSY_COBBLESTONE_SLAB_ITEM = ITEMS.register(
+            "radioactive_mossy_cobblestone_slab",
+            () -> new BlockItemBase(RADIOACTIVE_MOSSY_COBBLESTONE_SLAB.get())
+    );
     public static final RegistryObject<Item> RADIOACTIVE_COBBLESTONE_STAIRS_ITEM = ITEMS.register(
             "radioactive_cobblestone_stairs",
             () -> new BlockItemBase(RADIOACTIVE_COBBLESTONE_STAIRS.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_MOSSY_COBBLESTONE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_mossy_cobblestone_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_MOSSY_COBBLESTONE_STAIRS.get())
     );
 
     // Stone
@@ -375,6 +497,10 @@ public class ModBlocks {
             "radioactive_stone_slab",
             () -> new BlockItemBase(RADIOACTIVE_STONE_SLAB.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_STONE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_stone_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_STONE_STAIRS.get())
+    );
     public static final RegistryObject<Item> RADIOACTIVE_STONE_BRICK_SLAB_ITEM = ITEMS.register(
             "radioactive_stone_brick_slab",
             () -> new BlockItemBase(RADIOACTIVE_STONE_BRICK_SLAB.get())
@@ -382,6 +508,14 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_STONE_BRICK_STAIRS_ITEM = ITEMS.register(
             "radioactive_stone_brick_stairs",
             () -> new BlockItemBase(RADIOACTIVE_STONE_BRICK_STAIRS.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_MOSSY_STONE_BRICK_SLAB_ITEM = ITEMS.register(
+            "radioactive_mossy_stone_brick_slab",
+            () -> new BlockItemBase(RADIOACTIVE_MOSSY_STONE_BRICK_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_MOSSY_STONE_BRICK_STAIRS_ITEM = ITEMS.register(
+            "radioactive_mossy_stone_brick_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_MOSSY_STONE_BRICK_STAIRS.get())
     );
 
     // Sandstone
@@ -392,6 +526,10 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_CHISELED_SANDSTONE_BLOCK_ITEM = ITEMS.register(
             "radioactive_chiseled_sandstone_block",
             () -> new BlockItemBase(RADIOACTIVE_CHISELED_SANDSTONE_BLOCK.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_CUT_SANDSTONE_BLOCK_ITEM = ITEMS.register(
+            "radioactive_cut_sandstone_block",
+            () -> new BlockItemBase(RADIOACTIVE_CUT_SANDSTONE_BLOCK.get())
     );
     public static final RegistryObject<Item> RADIOACTIVE_SMOOTH_SANDSTONE_BLOCK_ITEM = ITEMS.register(
             "radioactive_smooth_sandstone_block",
@@ -405,6 +543,18 @@ public class ModBlocks {
             "radioactive_sandstone_stairs",
             () -> new BlockItemBase(RADIOACTIVE_SANDSTONE_STAIRS.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_CUT_SANDSTONE_SLAB_ITEM = ITEMS.register(
+            "radioactive_cut_sandstone_slab",
+            () -> new BlockItemBase(RADIOACTIVE_CUT_SANDSTONE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_SMOOTH_SANDSTONE_SLAB_ITEM = ITEMS.register(
+            "radioactive_smooth_sandstone_slab",
+            () -> new BlockItemBase(RADIOACTIVE_SMOOTH_SANDSTONE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_SMOOTH_SANDSTONE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_smooth_sandstone_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_SMOOTH_SANDSTONE_STAIRS.get())
+    );
 
     // Red Sandstone
     public static final RegistryObject<Item> RADIOACTIVE_RED_SANDSTONE_BLOCK_ITEM = ITEMS.register(
@@ -414,6 +564,10 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_RED_CHISELED_SANDSTONE_BLOCK_ITEM = ITEMS.register(
             "radioactive_red_chiseled_sandstone_block",
             () -> new BlockItemBase(RADIOACTIVE_RED_CHISELED_SANDSTONE_BLOCK.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_RED_CUT_SANDSTONE_BLOCK_ITEM = ITEMS.register(
+            "radioactive_red_cut_sandstone_block",
+            () -> new BlockItemBase(RADIOACTIVE_RED_CUT_SANDSTONE_BLOCK.get())
     );
     public static final RegistryObject<Item> RADIOACTIVE_RED_SMOOTH_SANDSTONE_BLOCK_ITEM = ITEMS.register(
             "radioactive_red_smooth_sandstone_block",
@@ -426,6 +580,18 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_RED_SANDSTONE_STAIRS_ITEM = ITEMS.register(
             "radioactive_red_sandstone_stairs",
             () -> new BlockItemBase(RADIOACTIVE_RED_SANDSTONE_STAIRS.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_RED_CUT_SANDSTONE_SLAB_ITEM = ITEMS.register(
+            "radioactive_red_cut_sandstone_slab",
+            () -> new BlockItemBase(RADIOACTIVE_RED_CUT_SANDSTONE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_RED_SMOOTH_SANDSTONE_SLAB_ITEM = ITEMS.register(
+            "radioactive_red_smooth_sandstone_slab",
+            () -> new BlockItemBase(RADIOACTIVE_RED_SMOOTH_SANDSTONE_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_RED_SMOOTH_SANDSTONE_STAIRS_ITEM = ITEMS.register(
+            "radioactive_red_smooth_sandstone_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_RED_SMOOTH_SANDSTONE_STAIRS.get())
     );
 
     // Brick
@@ -557,6 +723,10 @@ public class ModBlocks {
             "radioactive_quartz_pillar",
             () -> new BlockItemBase(RADIOACTIVE_QUARTZ_PILLAR.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_SMOOTH_QUARTZ_BLOCK_ITEM = ITEMS.register(
+            "radioactive_smooth_quartz_block",
+            () -> new BlockItemBase(RADIOACTIVE_SMOOTH_QUARTZ_BLOCK.get())
+    );
     public static final RegistryObject<Item> RADIOACTIVE_QUARTZ_SLAB_ITEM = ITEMS.register(
             "radioactive_quartz_slab",
             () -> new BlockItemBase(RADIOACTIVE_QUARTZ_SLAB.get())
@@ -564,6 +734,20 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_QUARTZ_STAIRS_ITEM = ITEMS.register(
             "radioactive_quartz_stairs",
             () -> new BlockItemBase(RADIOACTIVE_QUARTZ_STAIRS.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_SMOOTH_QUARTZ_SLAB_ITEM = ITEMS.register(
+            "radioactive_smooth_quartz_slab",
+            () -> new BlockItemBase(RADIOACTIVE_SMOOTH_QUARTZ_SLAB.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_SMOOTH_QUARTZ_STAIRS_ITEM = ITEMS.register(
+            "radioactive_smooth_quartz_stairs",
+            () -> new BlockItemBase(RADIOACTIVE_SMOOTH_QUARTZ_STAIRS.get())
+    );
+
+    // Grass
+    public static final RegistryObject<Item> RADIOACTIVE_LANDSCAPE_GRASS_ITEM = ITEMS.register(
+            "radioactive_landscape_grass",
+            () -> new BlockItemBase(RADIOACTIVE_LANDSCAPE_GRASS.get())
     );
 
     //--------- Wooden Block Items ---------
@@ -671,6 +855,8 @@ public class ModBlocks {
             () -> new BlockItemBase(RADIOACTIVE_STRIPPED_SPRUCE_WOOD.get())
     );
 
+    // Grass
+
     // Wood Planks
     public static final RegistryObject<Item> RADIOACTIVE_ACACIA_PLANKS_ITEM = ITEMS.register("radioactive_acacia_planks", () -> new BlockItemBase(RADIOACTIVE_ACACIA_PLANKS.get()));
     public static final RegistryObject<Item> RADIOACTIVE_BIRCH_PLANKS_ITEM = ITEMS.register("radioactive_birch_planks", () -> new BlockItemBase(RADIOACTIVE_BIRCH_PLANKS.get()));
@@ -696,11 +882,12 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_SPRUCE_STAIRS_ITEM = ITEMS.register("radioactive_spruce_stairs", () -> new BlockItemBase(RADIOACTIVE_SPRUCE_STAIRS.get()));
 
     // Terracotta
+    public static final RegistryObject<Item> RADIOACTIVE_TERRACOTTA_ITEM = ITEMS.register("radioactive_terracotta", () -> new BlockItemBase(RADIOACTIVE_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_BLACK_TERRACOTTA_ITEM = ITEMS.register("radioactive_black_terracotta", () -> new BlockItemBase(RADIOACTIVE_BLACK_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_BLUE_TERRACOTTA_ITEM = ITEMS.register("radioactive_blue_terracotta", () -> new BlockItemBase(RADIOACTIVE_BLUE_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_BROWN_TERRACOTTA_ITEM = ITEMS.register("radioactive_brown_terracotta", () -> new BlockItemBase(RADIOACTIVE_BROWN_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_CYAN_TERRACOTTA_ITEM = ITEMS.register("radioactive_cyan_terracotta", () -> new BlockItemBase(RADIOACTIVE_CYAN_TERRACOTTA.get()));
-    public static final RegistryObject<Item> RADIOACTIVE_GRAY_TERRACOTTA_ITEM = ITEMS.register("radioactive_gray_terracotta", () -> new BlockItemBase(RADIOACTIVE_LIGHT_GRAY_TERRACOTTA.get()));
+    public static final RegistryObject<Item> RADIOACTIVE_GRAY_TERRACOTTA_ITEM = ITEMS.register("radioactive_gray_terracotta", () -> new BlockItemBase(RADIOACTIVE_GRAY_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_GREEN_TERRACOTTA_ITEM = ITEMS.register("radioactive_green_terracotta", () -> new BlockItemBase(RADIOACTIVE_GREEN_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_LIGHT_BLUE_TERRACOTTA_ITEM = ITEMS.register("radioactive_light_blue_terracotta", () -> new BlockItemBase(RADIOACTIVE_LIGHT_BLUE_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_LIGHT_GRAY_TERRACOTTA_ITEM = ITEMS.register("radioactive_light_gray_terracotta", () -> new BlockItemBase(RADIOACTIVE_LIGHT_GRAY_TERRACOTTA.get()));
@@ -718,7 +905,7 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_BLUE_GLAZED_TERRACOTTA_ITEM = ITEMS.register("radioactive_blue_glazed_terracotta", () -> new BlockItemBase(RADIOACTIVE_BLUE_GLAZED_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_BROWN_GLAZED_TERRACOTTA_ITEM = ITEMS.register("radioactive_brown_glazed_terracotta", () -> new BlockItemBase(RADIOACTIVE_BROWN_GLAZED_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_CYAN_GLAZED_TERRACOTTA_ITEM = ITEMS.register("radioactive_cyan_glazed_terracotta", () -> new BlockItemBase(RADIOACTIVE_CYAN_GLAZED_TERRACOTTA.get()));
-    public static final RegistryObject<Item> RADIOACTIVE_GRAY_GLAZED_TERRACOTTA_ITEM = ITEMS.register("radioactive_gray_glazed_terracotta", () -> new BlockItemBase(RADIOACTIVE_LIGHT_GRAY_GLAZED_TERRACOTTA.get()));
+    public static final RegistryObject<Item> RADIOACTIVE_GRAY_GLAZED_TERRACOTTA_ITEM = ITEMS.register("radioactive_gray_glazed_terracotta", () -> new BlockItemBase(RADIOACTIVE_GRAY_GLAZED_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_GREEN_GLAZED_TERRACOTTA_ITEM = ITEMS.register("radioactive_green_glazed_terracotta", () -> new BlockItemBase(RADIOACTIVE_GREEN_GLAZED_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_LIGHT_BLUE_GLAZED_TERRACOTTA_ITEM = ITEMS.register("radioactive_light_blue_glazed_terracotta", () -> new BlockItemBase(RADIOACTIVE_LIGHT_BLUE_GLAZED_TERRACOTTA.get()));
     public static final RegistryObject<Item> RADIOACTIVE_LIGHT_GRAY_GLAZED_TERRACOTTA_ITEM = ITEMS.register("radioactive_light_gray_glazed_terracotta", () -> new BlockItemBase(RADIOACTIVE_LIGHT_GRAY_GLAZED_TERRACOTTA.get()));
@@ -736,7 +923,7 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_BLUE_CONCRETE_ITEM = ITEMS.register("radioactive_blue_concrete", () -> new BlockItemBase(RADIOACTIVE_BLUE_CONCRETE.get()));
     public static final RegistryObject<Item> RADIOACTIVE_BROWN_CONCRETE_ITEM = ITEMS.register("radioactive_brown_concrete", () -> new BlockItemBase(RADIOACTIVE_BROWN_CONCRETE.get()));
     public static final RegistryObject<Item> RADIOACTIVE_CYAN_CONCRETE_ITEM = ITEMS.register("radioactive_cyan_concrete", () -> new BlockItemBase(RADIOACTIVE_CYAN_CONCRETE.get()));
-    public static final RegistryObject<Item> RADIOACTIVE_GRAY_CONCRETE_ITEM = ITEMS.register("radioactive_gray_concrete", () -> new BlockItemBase(RADIOACTIVE_LIGHT_GRAY_CONCRETE.get()));
+    public static final RegistryObject<Item> RADIOACTIVE_GRAY_CONCRETE_ITEM = ITEMS.register("radioactive_gray_concrete", () -> new BlockItemBase(RADIOACTIVE_GRAY_CONCRETE.get()));
     public static final RegistryObject<Item> RADIOACTIVE_GREEN_CONCRETE_ITEM = ITEMS.register("radioactive_green_concrete", () -> new BlockItemBase(RADIOACTIVE_GREEN_CONCRETE.get()));
     public static final RegistryObject<Item> RADIOACTIVE_LIGHT_BLUE_CONCRETE_ITEM = ITEMS.register("radioactive_light_blue_concrete", () -> new BlockItemBase(RADIOACTIVE_LIGHT_BLUE_CONCRETE.get()));
     public static final RegistryObject<Item> RADIOACTIVE_LIGHT_GRAY_CONCRETE_ITEM = ITEMS.register("radioactive_light_gray_concrete", () -> new BlockItemBase(RADIOACTIVE_LIGHT_GRAY_CONCRETE.get()));

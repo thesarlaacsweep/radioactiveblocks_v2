@@ -1,12 +1,12 @@
 {
   "textures": {
-    "particle": "radioactiveblocks:blocks/planks_oak",
-    "down": "radioactiveblocks:blocks/planks_oak",
-    "up": "radioactiveblocks:blocks/planks_oak",
-    "north": "radioactiveblocks:blocks/planks_oak",
-    "east": "radioactiveblocks:blocks/planks_oak",
-    "south": "radioactiveblocks:blocks/planks_oak",
-    "west": "radioactiveblocks:blocks/planks_oak"
+    "particle": "radioactiveblocks:blocks/oak_planks",
+    "down": "radioactiveblocks:blocks/oak_planks",
+    "up": "radioactiveblocks:blocks/oak_planks",
+    "north": "radioactiveblocks:blocks/oak_planks",
+    "east": "radioactiveblocks:blocks/oak_planks",
+    "south": "radioactiveblocks:blocks/oak_planks",
+    "west": "radioactiveblocks:blocks/oak_planks"
   },
   "elements": [
     {

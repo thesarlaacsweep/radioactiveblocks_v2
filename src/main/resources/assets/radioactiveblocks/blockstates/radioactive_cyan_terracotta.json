@@ -1,5 +1,5 @@
 {
   "variants": {
-      "": { "model": "radioactiveblocks:/radioactive_cyan_terracotta" }
+      "": { "model": "radioactiveblocks:block/radioactive_cyan_terracotta" }
   }
 }

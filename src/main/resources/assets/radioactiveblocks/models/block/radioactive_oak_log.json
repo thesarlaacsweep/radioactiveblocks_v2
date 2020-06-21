@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_column",
   "textures": {
-      "end": "radioactiveblocks:blocks/log_oak_top",
-      "side": "radioactiveblocks:blocks/log_oak"
+      "end": "radioactiveblocks:blocks/oak_log_top",
+      "side": "radioactiveblocks:blocks/oak_log"
   }
 }

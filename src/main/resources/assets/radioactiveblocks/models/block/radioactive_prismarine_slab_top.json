@@ -1,12 +1,12 @@
 {
   "textures": {
-    "particle": "radioactiveblocks:blocks/prismarine_rough",
-    "down": "radioactiveblocks:blocks/prismarine_rough",
-    "up": "radioactiveblocks:blocks/prismarine_rough",
-    "north": "radioactiveblocks:blocks/prismarine_rough",
-    "east": "radioactiveblocks:blocks/prismarine_rough",
-    "south": "radioactiveblocks:blocks/prismarine_rough",
-    "west": "radioactiveblocks:blocks/prismarine_rough"
+    "particle": "radioactiveblocks:blocks/prismarine",
+    "down": "radioactiveblocks:blocks/prismarine",
+    "up": "radioactiveblocks:blocks/prismarine",
+    "north": "radioactiveblocks:blocks/prismarine",
+    "east": "radioactiveblocks:blocks/prismarine",
+    "south": "radioactiveblocks:blocks/prismarine",
+    "west": "radioactiveblocks:blocks/prismarine"
   },
   "elements": [
     {

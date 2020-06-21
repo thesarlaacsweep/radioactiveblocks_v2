@@ -1,12 +1,12 @@
 {
   "textures": {
     "particle": "radioactiveblocks:blocks/stone",
-    "down": "radioactiveblocks:blocks/stonebrick",
-    "up": "radioactiveblocks:blocks/stonebrick",
-    "north": "radioactiveblocks:blocks/stonebrick",
-    "east": "radioactiveblocks:blocks/stonebrick",
-    "south": "radioactiveblocks:blocks/stonebrick",
-    "west": "radioactiveblocks:blocks/stonebrick"
+    "down": "radioactiveblocks:blocks/stone_bricks",
+    "up": "radioactiveblocks:blocks/stone_bricks",
+    "north": "radioactiveblocks:blocks/stone_bricks",
+    "east": "radioactiveblocks:blocks/stone_bricks",
+    "south": "radioactiveblocks:blocks/stone_bricks",
+    "west": "radioactiveblocks:blocks/stone_bricks"
   },
   "elements": [
     {

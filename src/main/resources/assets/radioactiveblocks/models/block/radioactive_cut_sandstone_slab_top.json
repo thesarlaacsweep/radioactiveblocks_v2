@@ -1,8 +1,8 @@
 {
   "textures": {
     "particle": "radioactiveblocks:blocks/cut_sandstone",
-    "down": "radioactiveblocks:blocks/red_sandstone_top",
-    "up": "radioactiveblocks:blocks/red_sandstone_top",
+    "down": "radioactiveblocks:blocks/sandstone_top",
+    "up": "radioactiveblocks:blocks/sandstone_top",
     "north": "radioactiveblocks:blocks/cut_sandstone",
     "east": "radioactiveblocks:blocks/cut_sandstone",
     "south": "radioactiveblocks:blocks/cut_sandstone",
