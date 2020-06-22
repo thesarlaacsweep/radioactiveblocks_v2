@@ -87,10 +87,10 @@ public class ModBlocks {
 
     // Stone
     public static final RegistryObject<Block> RADIOACTIVE_STONE_BLOCK = BLOCKS.register("radioactive_stone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
-    public static final RegistryObject<Block> RADIOACTIVE_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_stone_brick", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
-    public static final RegistryObject<Block> RADIOACTIVE_CRACKED_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_cracked_stone_brick", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_stone_brick_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_CRACKED_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_cracked_stone_brick_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_MOSSY_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_mossy_stone_brick_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
-    public static final RegistryObject<Block> RADIOACTIVE_CHISELED_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_chiseled_stone_brick", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_CHISELED_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_chiseled_stone_brick_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_STONE_SLAB = BLOCKS.register("radioactive_stone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
     public static final RegistryObject<Block> RADIOACTIVE_STONE_STAIRS  = BLOCKS.register("radioactive_stone_stairs", () -> {
         return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.STONE_STAIRS.getDefaultState());
@@ -210,35 +210,35 @@ public class ModBlocks {
 
     // ################ Wood Blocks ################
     // Logs
-    public static final RegistryObject<Block> RADIOACTIVE_ACACIA_LOG = BLOCKS.register("radioactive_acacia_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.ADOBE));
-    public static final RegistryObject<Block> RADIOACTIVE_BIRCH_LOG = BLOCKS.register("radioactive_birch_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.SAND));
-    public static final RegistryObject<Block> RADIOACTIVE_DARK_OAK_LOG = BLOCKS.register("radioactive_dark_oak_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.BROWN));
-    public static final RegistryObject<Block> RADIOACTIVE_JUNGLE_LOG = BLOCKS.register("radioactive_jungle_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.DIRT));
-    public static final RegistryObject<Block> RADIOACTIVE_OAK_LOG = BLOCKS.register("radioactive_oak_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.WOOD));
-    public static final RegistryObject<Block> RADIOACTIVE_SPRUCE_LOG = BLOCKS.register("radioactive_spruce_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.OBSIDIAN));
+    public static final RegistryObject<Block> RADIOACTIVE_ACACIA_LOG = BLOCKS.register("radioactive_acacia_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.ADOBE));
+    public static final RegistryObject<Block> RADIOACTIVE_BIRCH_LOG = BLOCKS.register("radioactive_birch_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.SAND));
+    public static final RegistryObject<Block> RADIOACTIVE_DARK_OAK_LOG = BLOCKS.register("radioactive_dark_oak_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.BROWN));
+    public static final RegistryObject<Block> RADIOACTIVE_JUNGLE_LOG = BLOCKS.register("radioactive_jungle_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.DIRT));
+    public static final RegistryObject<Block> RADIOACTIVE_OAK_LOG = BLOCKS.register("radioactive_oak_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.WOOD));
+    public static final RegistryObject<Block> RADIOACTIVE_SPRUCE_LOG = BLOCKS.register("radioactive_spruce_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.OBSIDIAN));
 
     // Stripped Logs
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_ACACIA_LOG = BLOCKS.register("radioactive_stripped_acacia_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.ADOBE));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_BIRCH_LOG = BLOCKS.register("radioactive_stripped_birch_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.SAND));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_DARK_OAK_LOG = BLOCKS.register("radioactive_stripped_dark_oak_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.BROWN));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_JUNGLE_LOG = BLOCKS.register("radioactive_stripped_jungle_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.DIRT));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_OAK_LOG = BLOCKS.register("radioactive_stripped_oak_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.WOOD));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_SPRUCE_LOG = BLOCKS.register("radioactive_stripped_spruce_log", () -> new LogBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, MaterialColor.OBSIDIAN));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_ACACIA_LOG = BLOCKS.register("radioactive_stripped_acacia_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.ADOBE));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_BIRCH_LOG = BLOCKS.register("radioactive_stripped_birch_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.SAND));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_DARK_OAK_LOG = BLOCKS.register("radioactive_stripped_dark_oak_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.BROWN));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_JUNGLE_LOG = BLOCKS.register("radioactive_stripped_jungle_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.DIRT));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_OAK_LOG = BLOCKS.register("radioactive_stripped_oak_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.WOOD));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_SPRUCE_LOG = BLOCKS.register("radioactive_stripped_spruce_log", () -> new LogBase(Material.ROCK, ToolType.AXE, SoundType.STONE, MaterialColor.OBSIDIAN));
 
     // Wood
-    public static final RegistryObject<Block> RADIOACTIVE_ACACIA_WOOD = BLOCKS.register("radioactive_acacia_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_BIRCH_WOOD = BLOCKS.register("radioactive_birch_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_DARK_OAK_WOOD = BLOCKS.register("radioactive_dark_oak_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_JUNGLE_WOOD = BLOCKS.register("radioactive_jungle_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_OAK_WOOD = BLOCKS.register("radioactive_oak_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_SPRUCE_WOOD = BLOCKS.register("radioactive_spruce_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_ACACIA_WOOD = BLOCKS.register("radioactive_acacia_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_BIRCH_WOOD = BLOCKS.register("radioactive_birch_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_DARK_OAK_WOOD = BLOCKS.register("radioactive_dark_oak_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_JUNGLE_WOOD = BLOCKS.register("radioactive_jungle_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_OAK_WOOD = BLOCKS.register("radioactive_oak_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_SPRUCE_WOOD = BLOCKS.register("radioactive_spruce_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
     // Stripped Wood
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_ACACIA_WOOD = BLOCKS.register("radioactive_stripped_acacia_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_BIRCH_WOOD = BLOCKS.register("radioactive_stripped_birch_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_DARK_OAK_WOOD = BLOCKS.register("radioactive_stripped_dark_oak_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_JUNGLE_WOOD = BLOCKS.register("radioactive_stripped_jungle_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_OAK_WOOD = BLOCKS.register("radioactive_stripped_oak_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
-    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_SPRUCE_WOOD = BLOCKS.register("radioactive_stripped_spruce_wood", () -> new PillarBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_ACACIA_WOOD = BLOCKS.register("radioactive_stripped_acacia_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_BIRCH_WOOD = BLOCKS.register("radioactive_stripped_birch_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_DARK_OAK_WOOD = BLOCKS.register("radioactive_stripped_dark_oak_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_JUNGLE_WOOD = BLOCKS.register("radioactive_stripped_jungle_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_OAK_WOOD = BLOCKS.register("radioactive_stripped_oak_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
+    public static final RegistryObject<Block> RADIOACTIVE_STRIPPED_SPRUCE_WOOD = BLOCKS.register("radioactive_stripped_spruce_wood", () -> new PillarBase(Material.ROCK, ToolType.AXE, SoundType.STONE));
 
     // Planks
     public static final RegistryObject<Block> RADIOACTIVE_ACACIA_PLANKS = BLOCKS.register("radioactive_acacia_planks", () -> new BlockBase(Material.ROCK, ToolType.AXE, SoundType.WOOD, 15));
@@ -610,19 +610,19 @@ public class ModBlocks {
 
     // Endstone
     public static final RegistryObject<Item> RADIOACTIVE_ENDSTONE_BLOCK_ITEM = ITEMS.register(
-            "radioactive_endstone_block",
+            "radioactive_end_stone",
             () -> new BlockItemBase(RADIOACTIVE_ENDSTONE_BLOCK.get())
     );
     public static final RegistryObject<Item> RADIOACTIVE_ENDSTONE_BRICK_BLOCK_ITEM = ITEMS.register(
-            "radioactive_endstone_brick_block",
+            "radioactive_end_bricks",
             () -> new BlockItemBase(RADIOACTIVE_ENDSTONE_BRICK_BLOCK.get())
     );
     public static final RegistryObject<Item> RADIOACTIVE_ENDSTONE_BRICK_SLAB_ITEM = ITEMS.register(
-            "radioactive_endstone_brick_slab",
+            "radioactive_end_bricks_slab",
             () -> new BlockItemBase(RADIOACTIVE_ENDSTONE_BRICK_SLAB.get())
     );
     public static final RegistryObject<Item> RADIOACTIVE_ENDSTONE_BRICK_STAIRS_ITEM = ITEMS.register(
-            "radioactive_endstone_brick_stairs",
+            "radioactive_end_bricks_stairs",
             () -> new BlockItemBase(RADIOACTIVE_ENDSTONE_BRICK_STAIRS.get())
     );
 

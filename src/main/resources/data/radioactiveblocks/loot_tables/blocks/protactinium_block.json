@@ -1,5 +1,14 @@
 {
-  "variants": {
-    "": { "model": "radioactiveblocks:block/protactinium_block" }
-  }
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "radioactiveblocks:protactinium_block"
+        }
+      ]
+    }
+  ]
 }

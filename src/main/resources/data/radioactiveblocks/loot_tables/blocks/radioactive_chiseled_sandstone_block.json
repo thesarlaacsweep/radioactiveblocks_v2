@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "radioactiveblocks:radioactive_chiseled_sandstone"
+          "name": "radioactiveblocks:radioactive_chiseled_sandstone_block"
         }
       ]
     }
