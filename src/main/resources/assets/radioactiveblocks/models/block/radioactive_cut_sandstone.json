@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-      "end": "radioactiveblocks:blocks/sandstone_top",
-      "side": "radioactiveblocks:blocks/cut_sandstone"
-  }
-}
