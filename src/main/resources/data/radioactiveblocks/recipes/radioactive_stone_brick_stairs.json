@@ -3,7 +3,7 @@
   "pattern": ["S  ", "SS ", "SSS"],
   "key": {
     "S": {
-      "item": "radioactiveblocks:radioactive_stone_brick"
+      "item": "radioactiveblocks:radioactive_stone_brick_block"
     }
   },
   "result": {

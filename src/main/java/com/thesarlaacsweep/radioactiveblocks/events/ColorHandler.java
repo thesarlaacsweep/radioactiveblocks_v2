@@ -16,13 +16,13 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = RadioactiveBlocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ColorHandler {
     @SubscribeEvent
-    public static void registerBlockColorHandlers(final ColorHandlerEvent.Block event) {
+    public static void registerBlockColorHandler(final ColorHandlerEvent.Block event) {
         event.getBlockColors().register((x, reader, pos, u) -> reader != null && pos != null ?
                 BiomeColors.getGrassColor(reader, pos) : GrassColors.get(0.5D, 1.0D), ModBlocks.RADIOACTIVE_LANDSCAPE_GRASS.get());
     }
 
     @SubscribeEvent
-    public static void registerItemColorHandlers(final ColorHandlerEvent.Item event) {
+    public static void registerItemColorHandler(final ColorHandlerEvent.Item event) {
         final BlockColors blockColors = event.getBlockColors();
         final ItemColors itemColors = event.getItemColors();
 

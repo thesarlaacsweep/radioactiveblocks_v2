@@ -2,9 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "pattern": ["B  ", "BB ", "BBB"],
   "key": {
-    "B": {
-      "item": "radioactiveblocks:radioactive_red_sandstone_block"
-    }
+    "B": [
+      {
+        "item": "radioactiveblocks:radioactive_red_sandstone_block"
+      },
+      {
+        "item": "radioactiveblocks:radioactive_red_chiseled_sandstone_block"
+      },
+      {
+        "item": "radioactiveblocks:radioactive_red_cut_sandstone_block"
+      }
+    ]
   },
   "result": {
     "item": "radioactiveblocks:radioactive_red_sandstone_stairs",

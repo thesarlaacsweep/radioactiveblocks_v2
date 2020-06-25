@@ -4,8 +4,7 @@
   "key": {
     "I": { "tag": "radioactiveblocks:ingots" },
     "S": {
-      "item": "minecraft:stone",
-      "data": 5
+      "item": "minecraft:andesite"
     },
     "R": {
       "item": "minecraft:gravel"

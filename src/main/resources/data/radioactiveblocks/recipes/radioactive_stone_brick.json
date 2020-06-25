@@ -5,7 +5,7 @@
     "S": { "item": "radioactiveblocks:radioactive_stone_block" }
   },
   "result": {
-    "item": "radioactiveblocks:radioactive_stone_brick",
+    "item": "radioactiveblocks:radioactive_stone_brick_block",
     "count": 4
   }
 }

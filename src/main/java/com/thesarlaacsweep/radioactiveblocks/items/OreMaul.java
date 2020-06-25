@@ -26,7 +26,7 @@ public class OreMaul extends ToolItem {
     );
     private final Set<ToolType> toolTypes;
     public OreMaul() {
-        super(3, -2.8f, ItemTier.IRON, EFFECTIVE_ON, new Item.Properties().group(RadioactiveBlocks.TOOLS_TAB).addToolType(ToolType.PICKAXE, ItemTier.IRON.getHarvestLevel()));
+        super(6, -2.8f, ItemTier.IRON, EFFECTIVE_ON, new Item.Properties().group(RadioactiveBlocks.TOOLS_TAB).addToolType(ToolType.PICKAXE, ItemTier.IRON.getHarvestLevel()));
         this.toolTypes = new HashSet<>();
         ToolType ORE_MAUL = ToolType.get("ore_maul");
         this.toolTypes.add(ORE_MAUL);

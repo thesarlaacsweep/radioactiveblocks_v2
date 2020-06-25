@@ -4,8 +4,7 @@
   "pattern": ["TTT", "TDT", "TTT"],
   "key": {
     "D": {
-      "item": "minecraft:dye",
-      "data": 2
+      "item": "minecraft:green_dye"
 
     },
     "T": {
