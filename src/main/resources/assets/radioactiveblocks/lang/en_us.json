@@ -318,6 +318,6 @@
   "block.radioactiveblocks.radioactive_dead_fire_coral_block": "Radioactive Dead Fire Coral Block",
   "block.radioactiveblocks.radioactive_dead_horn_coral_block": "Radioactive Dead Horn Coral Block",
   "block.radioactiveblocks.radioactive_dead_tube_coral_block": "Radioactive Dead Tube Coral Block",
-  "advancements.adventure.you_got_burned.title": "You got burned monster!",
-  "advancements.adventure.you_got_burned.description": "Enemy has been defeated with a radioactive sword."
+  "advancements.story.radioactive_ore_maul.title": "Ashes to Ashes, Ore to Dust!",
+  "advancements.story.radioactive_ore_maul.description": "Player acquired the Radioactive Ore Maul."
 }

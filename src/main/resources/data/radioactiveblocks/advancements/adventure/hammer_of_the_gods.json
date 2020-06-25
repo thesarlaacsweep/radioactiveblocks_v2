@@ -1,16 +1,16 @@
 {
   "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-  "parent": "minecraft:adventure/kill_a_mob",
+  "parent": "minecraft:adventure/root",
   "display": {
     "title": {
-      "text": "You got burned!",
+      "text": "Hammer of the Gods!",
       "bold": true
     },
     "description": {
-      "text": "You used a radioactive sword to thwart thine enemy..."
+      "text": "Player used the ore maul to destroy anything in its path..."
     },
     "icon": {
-      "item": "radioactiveblocks:uranium_sword"
+      "item": "radioactiveblocks:ore_maul"
     },
     "frame": "task",
     "show_toast": true,
@@ -19,7 +19,7 @@
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
   },
   "criteria": {
-    "hasRadioactiveSword": {
+    "hasMaul": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "killing_blow": {
@@ -27,7 +27,7 @@
             "type": "minecraft:player",
             "equipment": {
               "mainhand": {
-                "tag": "radioactiveblocks:swords"
+                "item": "radioactiveblocks:ore_maul"
               }
             }
           }
@@ -37,7 +37,7 @@
   },
   "requirements": [
     [
-      "hasRadioactiveSword"
+      "hasMaul"
     ]
   ],
   "rewards": {

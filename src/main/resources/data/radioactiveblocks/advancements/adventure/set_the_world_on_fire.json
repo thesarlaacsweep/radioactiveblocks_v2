@@ -1,16 +1,16 @@
 {
   "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-  "parent": "minecraft:adventure/kill_a_mob",
+  "parent": "minecraft:adventure/root",
   "display": {
     "title": {
-      "text": "Monster got Hammered YO!",
+      "text": "Setting the World on FIRE!",
       "bold": true
     },
     "description": {
-      "text": "You used a the ore maul to destroy a monster..."
+      "text": "Player used a radioactive sword to light someone or something on fire..."
     },
     "icon": {
-      "item": "radioactiveblocks:ore_maul"
+      "item": "radioactiveblocks:uranium_sword"
     },
     "frame": "task",
     "show_toast": true,
@@ -19,7 +19,7 @@
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
   },
   "criteria": {
-    "hasMaul": {
+    "hasRadioactiveSword": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "killing_blow": {
@@ -27,7 +27,7 @@
             "type": "minecraft:player",
             "equipment": {
               "mainhand": {
-                "item": "radioactiveblocks:ore_maul"
+                "tag": "radioactiveblocks:swords"
               }
             }
           }
@@ -37,7 +37,7 @@
   },
   "requirements": [
     [
-      "hasMaul"
+      "hasRadioactiveSword"
     ]
   ],
   "rewards": {
