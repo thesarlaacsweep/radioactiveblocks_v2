@@ -1,4 +1,4 @@
-{   "parent": "block/block",
+{"parent": "block/block",
   "textures": {
       "particle": "radioactiveblocks:blocks/dirt",
       "bottom": "radioactiveblocks:blocks/dirt",

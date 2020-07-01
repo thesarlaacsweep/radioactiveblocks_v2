@@ -3,11 +3,11 @@
   "pattern": ["###"],
   "key": {
     "#": {
-      "item": "radioactiveblocks:radioactive_polished_granite_slab"
+      "item": "radioactiveblocks:radioactive_polished_granite_block"
     }
   },
   "result": {
-    "item": "radioactiveblocks:polished_granite_slab",
+    "item": "radioactiveblocks:radioactive_polished_granite_slab",
     "count": 6
   }
 }

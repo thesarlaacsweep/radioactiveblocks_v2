@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "radioactiveblocks:radioactive_diorite_slab"
+      "item": "radioactiveblocks:radioactive_polished_diorite_block"
     }
   },
   "result": {
-    "item": "radioactiveblocks:diorite_slab",
+    "item": "radioactiveblocks:radioactive_polished_diorite_slab",
     "count": 6
   }
 }

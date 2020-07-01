@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "radioactiveblocks:radioactive_cut_red_sandstone_slab"
+          "name": "radioactiveblocks:radioactive_red_cut_sandstone_slab"
         }
       ]
     }

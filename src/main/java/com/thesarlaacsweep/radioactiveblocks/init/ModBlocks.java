@@ -91,6 +91,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> RADIOACTIVE_CRACKED_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_cracked_stone_brick_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_MOSSY_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_mossy_stone_brick_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_CHISELED_STONE_BRICK_BLOCK = BLOCKS.register("radioactive_chiseled_stone_brick_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
+    public static final RegistryObject<Block> RADIOACTIVE_SMOOTH_STONE_BLOCK = BLOCKS.register("radioactive_smooth_stone", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, 15));
     public static final RegistryObject<Block> RADIOACTIVE_STONE_SLAB = BLOCKS.register("radioactive_stone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
     public static final RegistryObject<Block> RADIOACTIVE_STONE_STAIRS  = BLOCKS.register("radioactive_stone_stairs", () -> {
         return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.STONE_STAIRS.getDefaultState());
@@ -103,6 +104,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> RADIOACTIVE_MOSSY_STONE_BRICK_STAIRS  = BLOCKS.register("radioactive_mossy_stone_brick_stairs", () -> {
         return new StairBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE, Blocks.MOSSY_STONE_BRICK_STAIRS.getDefaultState());
     });
+
+    public static final RegistryObject<Block> RADIOACTIVE_SMOOTH_STONE_SLAB = BLOCKS.register("radioactive_smooth_stone_slab", () -> new SlabBase(Material.ROCK, ToolType.PICKAXE, SoundType.STONE));
 
     // Sandstone
     public static final RegistryObject<Block> RADIOACTIVE_SANDSTONE_BLOCK = BLOCKS.register("radioactive_sandstone_block", () -> new BlockBase(Material.ROCK, ToolType.PICKAXE, SoundType.GROUND, 15));
@@ -493,6 +496,10 @@ public class ModBlocks {
             "radioactive_chiseled_stone_brick_block",
             () -> new BlockItemBase(RADIOACTIVE_CHISELED_STONE_BRICK_BLOCK.get())
     );
+    public static final RegistryObject<Item> RADIOACTIVE_SMOOTH_STONE_BLOCK_ITEM = ITEMS.register(
+            "radioactive_smooth_stone",
+            () -> new BlockItemBase(RADIOACTIVE_SMOOTH_STONE_BLOCK.get())
+    );
     public static final RegistryObject<Item> RADIOACTIVE_STONE_SLAB_ITEM = ITEMS.register(
             "radioactive_stone_slab",
             () -> new BlockItemBase(RADIOACTIVE_STONE_SLAB.get())
@@ -516,6 +523,10 @@ public class ModBlocks {
     public static final RegistryObject<Item> RADIOACTIVE_MOSSY_STONE_BRICK_STAIRS_ITEM = ITEMS.register(
             "radioactive_mossy_stone_brick_stairs",
             () -> new BlockItemBase(RADIOACTIVE_MOSSY_STONE_BRICK_STAIRS.get())
+    );
+    public static final RegistryObject<Item> RADIOACTIVE_SMOOTH_STONE_SLAB_ITEM = ITEMS.register(
+            "radioactive_smooth_stone_slab",
+            () -> new BlockItemBase(RADIOACTIVE_SMOOTH_STONE_SLAB.get())
     );
 
     // Sandstone

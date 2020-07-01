@@ -5,11 +5,11 @@
       "item": "minecraft:vine"
     },
     {
-      "item": "radioactiveblocks:radioactive_stone_brick"
+      "item": "radioactiveblocks:radioactive_stone_brick_block"
     }
   ],
   "result": {
-    "item": "radioactiveblocks:radioactive_mossy_stone_brick",
+    "item": "radioactiveblocks:radioactive_mossy_stone_brick_block",
     "count": 1
   }
 }

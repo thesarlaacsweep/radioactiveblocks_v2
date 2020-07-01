@@ -8,7 +8,7 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-          { "item": "minecraft:brick_block" },
+          { "item": "minecraft:bricks" },
           { "item": "minecraft:gravel" }
         ]
       }

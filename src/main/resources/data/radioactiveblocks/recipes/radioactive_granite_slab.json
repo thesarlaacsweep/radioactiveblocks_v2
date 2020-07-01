@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "radioactiveblocks:radioactive_granite_slab"
+      "item": "radioactiveblocks:radioactive_granite_block"
     }
   },
   "result": {
-    "item": "radioactiveblocks:granite_slab",
+    "item": "radioactiveblocks:radioactive_granite_slab",
     "count": 6
   }
 }
