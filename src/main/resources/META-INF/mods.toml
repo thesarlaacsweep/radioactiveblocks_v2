@@ -9,13 +9,13 @@ issueTrackerURL="https://github.com/thesarlaacsweep/radioactiveblocks_v2/issues"
 
 modId="radioactiveblocks" #mandatory
 
-version="${file.jarVersion}" #mandatory
+version="2.0.4" #mandatory
 
 displayName="Radioactive Blocks" #mandatory
 
 updateJSONURL="https://github.com/thesarlaacsweep/radioactiveblocks_updates/blob/master/updates.json" #optional
 
-displayURL="http://example.com/" #optional
+#displayURL="http://example.com/" #optional
 
 #logoFile="https://media.forgecdn.net/avatars/thumbnails/275/619/64/64/637262887391987635.png" #optional
 

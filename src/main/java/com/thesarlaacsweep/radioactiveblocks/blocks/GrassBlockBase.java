@@ -6,6 +6,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
@@ -18,28 +21,33 @@ import javax.annotation.Nullable;
 import java.util.Random;
 
 public class GrassBlockBase extends GrassBlock implements IGrowable {
+    public static final int HARVEST_LEVEL = 3;
+    public static final ToolType SHOVEL = ToolType.SHOVEL;
+
     public GrassBlockBase() {
         super(
                 Block.Properties.create(Material.ORGANIC)
-                        .harvestLevel(2)
+                        .harvestLevel(HARVEST_LEVEL)
                         .hardnessAndResistance(3f, 6000f)
-                        .harvestTool(ToolType.SHOVEL)
+                        .harvestTool(SHOVEL)
                         .sound(SoundType.PLANT)
                         .lightValue(15)
                         .tickRandomly()
         );
     }
 
-//    @Override
-//    public boolean canGrow(IBlockReader worldIn, BlockPos pos, BlockState state, boolean isClient) {
-//        return false;
-//    }
-//
-//    @Override
-//    public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, BlockState state) {
-//        return false;
-//    }
+    @Nullable
+    @Override
+    public ToolType getHarvestTool(BlockState state) {
+        return SHOVEL;
+    }
 
+    @Override
+    public void harvestBlock(World worldIn, PlayerEntity player, BlockPos pos, BlockState state, @Nullable TileEntity te, ItemStack stack) {
+        if (stack.getHarvestLevel(SHOVEL, player, state) >= HARVEST_LEVEL) {
+            super.harvestBlock(worldIn, player, pos, state, te, stack);
+        }
+    }
 
     @Override
     public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction facing, IPlantable plantable) {
