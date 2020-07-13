@@ -1,15 +1,18 @@
 package com.thesarlaacsweep.radioactiveblocks;
 
+import com.thesarlaacsweep.radioactiveblocks.config.ModConfig;
 import com.thesarlaacsweep.radioactiveblocks.init.ModBlocks;
 import com.thesarlaacsweep.radioactiveblocks.init.ModItems;
 import com.thesarlaacsweep.radioactiveblocks.init.ModOres;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.loading.FMLPaths;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -19,8 +22,13 @@ public class RadioactiveBlocks {
     public static final String MOD_ID = "radioactiveblocks";
 
     public RadioactiveBlocks() {
+        final ModLoadingContext modLoadingContext = ModLoadingContext.get();
+        modLoadingContext.registerConfig(net.minecraftforge.fml.config.ModConfig.Type.COMMON, ModConfig.COMMON_CONFIG, "radioactiveblocks-common-config.toml");
+
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+
+        ModConfig.loadConfig(ModConfig.COMMON_CONFIG, FMLPaths.CONFIGDIR.get().resolve("radioactiveblocks-common-config.toml"));
 
         ModOres.init();
         ModItems.init();

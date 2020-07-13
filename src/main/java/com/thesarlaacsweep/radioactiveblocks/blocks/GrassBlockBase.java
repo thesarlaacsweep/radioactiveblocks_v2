@@ -1,5 +1,6 @@
 package com.thesarlaacsweep.radioactiveblocks.blocks;
 
+import com.thesarlaacsweep.radioactiveblocks.config.ModConfig;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
@@ -61,7 +62,7 @@ public class GrassBlockBase extends GrassBlock implements IGrowable {
 
     @Override
     public void onEntityWalk(World worldIn, BlockPos pos, Entity entityIn) {
-        if (entityIn.getClassification(false) == EntityClassification.MONSTER) {
+        if (ModConfig.has_radiation_effect.get() && entityIn.getClassification(false) == EntityClassification.MONSTER) {
             entityIn.setFire(5000);
             entityIn.attackEntityFrom(DamageSource.ON_FIRE, 3f);
         }

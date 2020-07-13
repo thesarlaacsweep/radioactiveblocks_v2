@@ -9,7 +9,7 @@ issueTrackerURL="https://github.com/thesarlaacsweep/radioactiveblocks_v2/issues"
 
 modId="radioactiveblocks" #mandatory
 
-version="2.0.4" #mandatory
+version="2.1.0" #mandatory
 
 displayName="Radioactive Blocks" #mandatory
 
